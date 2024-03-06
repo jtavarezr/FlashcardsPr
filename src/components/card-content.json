@@ -1,0 +1,84 @@
+[
+  {
+    "id": 1,
+    "title": "Python Basics",
+    "question": "What are the basic data types in Python?",
+    "answer": "The basic data types in Python include integers, floats, strings, booleans, and None.",
+    "color": "primary",
+    "image": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png",
+    "transparent": true
+
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Fundamentals",
+    "question": "What is a variable in JavaScript?",
+    "answer": "A variable in JavaScript is a container for storing data values.",
+    "color": "success",
+    "image": "https://quintagroup.com/cms/js/js-image/javascript-logo.png/@@images/8c64c4b9-4e1c-4c26-9b5e-78d85e3130a9.png"
+  },
+  {
+    "id": 3,
+    "title": "Object-Oriented Programming (OOP)",
+    "question": "What is inheritance in OOP?",
+    "answer": "Inheritance in OOP is the ability of a class to inherit properties and methods from another class.",
+    "color": "info",
+    "image": "https://miro.medium.com/v2/resize:fit:528/1*lpkjNDgkcZG8dF4GcBd5WQ.png"
+  },
+  {
+    "id": 4,
+    "title": "Version Control with Git",
+    "question": "What is a repository in Git?",
+    "answer": "A repository in Git is a storage location where your project's files and revision history are stored.",
+    "color": "warning",
+    "image": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+  },
+  {
+    "id": 5,
+    "title": "Web Development Basics",
+    "question": "What is HTML?",
+    "answer": "HTML (Hypertext Markup Language) is the standard markup language for creating web pages.",
+    "color": "danger",
+    "image": "https://banner2.cleanpng.com/20190125/wpj/kisspng-computer-icons-html5-scalable-vector-graphics-port-socialpack-chocolate-icon-5c4b3bbcb7d671.680718971548434364753.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Database Management",
+    "question": "What is SQL?",
+    "answer": "SQL (Structured Query Language) is a programming language used for managing and manipulating relational databases.",
+    "color": "light",
+    "image": "https://banner2.cleanpng.com/20180330/zle/kisspng-microsoft-azure-sql-database-microsoft-sql-server-database-5abeaece642720.1956423515224460304102.jpg"
+  },
+  {
+    "id": 7,
+    "title": "API Development",
+    "question": "What is an API?",
+    "answer": "An API (Application Programming Interface) is a set of rules and protocols for building and interacting with software applications.",
+    "color": "secondary",
+    "image": "https://icons.veryicon.com/png/o/miscellaneous/web-5/web-api-access.png"
+  },
+  {
+    "id": 8,
+    "title": "Algorithms and Data Structures",
+    "question": "What is a linked list?",
+    "answer": "A linked list is a linear data structure consisting of a sequence of elements where each element points to the next element in the sequence.",
+    "color": "dark",
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20220816144425/LLdrawio.png"
+  },
+  {
+    "id": 9,
+    "title": "Web Security",
+    "question": "What is Cross-Site Scripting (XSS)?",
+    "answer": "Cross-Site Scripting (XSS) is a security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users.",
+    "color": "primary",
+    "image": "https://png.pngtree.com/png-vector/20191121/ourmid/pngtree-shield-with-a-check-mark-safe-and-protect-logo-on-white-png-image_1870454.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Cloud Computing",
+    "question": "What is AWS?",
+    "answer": "AWS (Amazon Web Services) is a cloud computing platform that offers a wide range of services for building and deploying applications.",
+    "color": "info",
+    "image": "https://cdn.iconscout.com/icon/free/png-256/free-aws-3215369-2673787.png"
+  }
+]
