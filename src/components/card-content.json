@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "title": "Python Basics",
-    "question": "What are the basic data types in Python?",
-    "answer": "The basic data types in Python include integers, floats, strings, booleans, and None.",
+    "title": "React",
+    "question": "What syntax is used to represent user interface elements in React?",
+    "answer": "JSX",
     "color": "primary",
     "image": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/community/logos/python-logo-only.png",
     "transparent": true
@@ -11,17 +11,17 @@
   },
   {
     "id": 2,
-    "title": "JavaScript Fundamentals",
-    "question": "What is a variable in JavaScript?",
-    "answer": "A variable in JavaScript is a container for storing data values.",
+    "title": "React",
+    "question": "What is the acronym Document Object Model?",
+    "answer": "DOM",
     "color": "success",
     "image": "https://quintagroup.com/cms/js/js-image/javascript-logo.png/@@images/8c64c4b9-4e1c-4c26-9b5e-78d85e3130a9.png"
   },
   {
     "id": 3,
-    "title": "Object-Oriented Programming (OOP)",
-    "question": "What is inheritance in OOP?",
-    "answer": "Inheritance in OOP is the ability of a class to inherit properties and methods from another class.",
+    "title": "React",
+    "question": "what is a component?",
+    "answer": "UI building block.",
     "color": "info",
     "image": "https://miro.medium.com/v2/resize:fit:528/1*lpkjNDgkcZG8dF4GcBd5WQ.png"
   },

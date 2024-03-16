@@ -1,4 +1,5 @@
 :root {
+  /* General styles */
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -10,8 +11,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('./assets/bg-image.jpg');
+  /* Ruta relativa a la carpeta public */
+  background-size: cover;
+  /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
+  background-position: center;
+  /* Centra la imagen */
+}
 
 a {
+  /* Link styles */
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -21,20 +32,8 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
 button {
+  /* Button styles */
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -56,6 +55,8 @@ button:focus-visible {
 }
 
 @media (prefers-color-scheme: light) {
+
+  /* Light mode styles */
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -70,29 +71,40 @@ button:focus-visible {
   }
 }
 
-
-
-
 /* Blue button */
 .buttonBlue {
-  background-color: #008CBA;
+  background-color: #008cba;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-image: url('./assets/bg-image.jpg');
-  /* Ruta relativa a la carpeta public */
-  background-size: cover;
-  /* Ajusta el tamaño de la imagen para que cubra todo el contenedor */
-  background-position: center;
-  /* Centra la imagen */
+/* Card container */
+.card_container {
+  border: black solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 2px #0000004d;
+  transform-style: preserve-3d;
+  font-weight: 700;
+  padding: 2em;
+  height: 375px;
+  width: 70%;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.15s;
+  transform: perspective(1000px) rotateX(var(--rotate-X, 0));
 }
 
+.card_container:hover {
+  box-shadow: 0 0 5px 2px #00000080;
+}
+
+/* Flip card styles */
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
-  perspective: 1000px;
+  width: 75%;
+  height: 375px;
+  margin-right: -31px;
 }
 
 .flip-card-inner {
@@ -119,8 +131,20 @@ body {
 }
 
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+  border: black solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 2px #0000004d;
+  transform-style: preserve-3d;
+  font-weight: 700;
+  padding: 2em;
+  height: 375px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.15s;
+  transform: perspective(1000px) rotateX(var(--rotate-X, 0));
 }
 
 .flip-card-back {
@@ -129,14 +153,35 @@ body {
   transform: rotateY(180deg);
 }
 
+/* Button container */
+.button-container {
+  margin-top: 20px;
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  /* Alinea los elementos al principio del contenedor principal */
   min-height: 100vh;
+  position: relative;
+  /* Agregado para posicionar los "Mastered Cards" */
 }
 
-.button-container {
-  margin-top: 20px;
+.mastered-cards-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
 }
