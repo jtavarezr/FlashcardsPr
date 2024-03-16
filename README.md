@@ -1,4 +1,4 @@
-# Web Development Project 3 - *Name of App Here*
+# Web Development Project 3 - *FlashCard V2.0*
 
 Submitted by: **Jonathan Tavarez**
 
@@ -24,7 +24,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you added to improve the site's functionality!
+- [x] List anything else that you added to improve the site's functionality!
+- [x] Use BootStrap
 
 ## Video Walkthrough
 
